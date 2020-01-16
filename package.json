@@ -1,0 +1,24 @@
+{
+  "name": "parcel-plugin-starter",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "",
+  "license": "",
+  "scripts": {
+    "dev": "parcel ./public/index.html --open",
+    "build": "parcel build ./public/index.html NODE_ENV=production --no-source-maps --public-url ./public --out-dir ./dist",
+    "rmdist": "rm -rf dist",
+    "preinstall": "rm -rf ./node_modules/parcel-plugin-starter"
+  },
+  "keywords": [],
+  "author": "",
+  "parcel-plugin-starter": {
+    "dir": "./static"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "file-system": "^2.2.2",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-starter": "file:local_modules/parcel-plugin-starter"
+  }
+}

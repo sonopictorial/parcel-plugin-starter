@@ -1,1 +1,3 @@
-# parcel-plugin-starter
+### parcel-plugin-starter
+
+API docs @ <https://parceljs.org/api.html>

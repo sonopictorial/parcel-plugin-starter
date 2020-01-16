@@ -1,0 +1,13 @@
+{
+  "name": "parcel-plugin-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Max Vasilevskis",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "*",
+    "file-system": "^2.2.2"
+  },
+  "repository": ""
+}
